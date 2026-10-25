@@ -1,6 +1,8 @@
 *This project has been created as part of the 42 curriculum by msochor and huburton*
 
 # cub3d
+
+![cub3d running: textured corridor rendered by the raycaster](docs/cub3d.webp)
 ## Description
 
 cub3d is a simplified 3D rendering engine inspired by Wolfenstein 3D.
@@ -60,7 +62,7 @@ Wall collision is checked by sampling the map grid around the player’s radius.
 
 #### 2. Ray‑Casting (DDA)
 
-For each frame, the engine casts 256 (preset window width / 2)rays across a 60° FOV.
+For each frame, the engine casts 256 rays (preset window width / 2) across a 60° FOV.
 
 Each ray computes:
 ```
@@ -122,7 +124,7 @@ Run the executable with map settings file as argument.
 Great tutorial for raycasting:
 https://lodev.org/cgtutor/raycasting.html
 
-Nice video explaing raycasting:
+Nice video explaining raycasting:
 https://www.youtube.com/watch?v=g8p7nAbDz6Y
 
 AI was used for better understanding of math formulas used for the raycasting.
